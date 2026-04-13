@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #2563eb;
-    --dark-color: #0f172a;   
-    --light-bg: #f1f5f9;     
-    --white: #ffffff;        
+    --primary-color: #63783D;
+    --dark-color: #2f3e2f;   
+    --light-bg: #CFE0BC;     
+    --white: #99CD85;        
 }
 
 * {
@@ -29,7 +29,7 @@ header {
 nav ul {
     display: flex;       
     list-style: none;    
-    gap: 20px;           
+    gap: 30px;           
 }
 
 nav a {

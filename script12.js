@@ -35,19 +35,14 @@ btnTema.addEventListener('click', alternarTema);
 
 const meusProjetos = [
     {
-        titulo: "Projeto 01 - E-commerce",
-        descricao: "Uma loja virtual feita com HTML, CSS e JavaScript.",
-        link: "https://github.com/pedroalex/ecommerce"
+        titulo: "Projeto 01 - Geoplanner ",
+        descricao: "Sistema web voltado para arquitetos e urbanistas gerenciarem parâmetros urbanísticos de projetos arquitetônicos de forma digital",
+        link: "https://github.com/jackieneres/geoplanner"
     },
     {
-        titulo: "Projeto 02 - Portfólio",
-        descricao: "Meu portfólio de apresentação feito com tecnologias modernas.",
-        link: "https://github.com/pedroalex/portfolio"
-    },
-    {
-        titulo: "Projeto 03 - Registro de Ponto",
-        descricao: "Sistema web para registrar o ponto dos funcionários das empresas.",
-        link: "https://github.com/pedroalex/registrodeponto"
+        titulo: "Projeto 03 - Teste cores de tintas",
+        descricao: "Sistema web para testar aplicar virtualmente cores de tintas em ambientes da realidade, simulando projetos reais.",
+        link: "https://github.com/jackieneres/testecoresdetintas"
     }
 ];
 
