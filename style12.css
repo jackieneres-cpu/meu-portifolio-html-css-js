@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #63783D;
+    --primary-color: #73a279;
     --dark-color: #2f3e2f;   
-    --light-bg: #CFE0BC;     
-    --white: #99CD85;        
+    --light-bg: #d5d9d0;     
+    --white: #a0bf94;        
 }
 
 * {
@@ -22,14 +22,18 @@ header {
     background-color: var(--white);
     padding: 1rem 5%;
     display: flex;
-    justify-content: space-between; 
+    flex-direction: column; 
     align-items: center;
+    text-align: center;
 }
 
 nav ul {
     display: flex;       
     list-style: none;    
-    gap: 30px;           
+    gap: 25px;
+    justify-content: center; 
+    padding: 0;  
+    margin-top: 10px;    
 }
 
 nav a {
@@ -45,23 +49,27 @@ section {
 }
 
 #sobre {
-    display: flex;          
-    flex-direction: column; 
-    align-items: center;    
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;         
+    justify-content: center;    
+    gap: 30px;
 }
 
 #sobre img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;  
-    margin-bottom: 20px;
-    border: 4px solid var(--white);
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #8bc34a;
+    display: block;  
+    margin: 0;
 }
 
 h2 {
-    text-align: center; 
-    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .projetos-container {
@@ -150,7 +158,7 @@ footer {
     margin-top: 40px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     header {
         flex-direction: column; 
         padding: 1rem;

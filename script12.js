@@ -40,7 +40,7 @@ const meusProjetos = [
         link: "https://github.com/jackieneres/geoplanner"
     },
     {
-        titulo: "Projeto 03 - Teste cores de tintas",
+        titulo: "Projeto 02 - Teste cores de tintas",
         descricao: "Sistema web para testar aplicar virtualmente cores de tintas em ambientes da realidade, simulando projetos reais.",
         link: "https://github.com/jackieneres/testecoresdetintas"
     }
